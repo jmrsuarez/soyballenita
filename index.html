@@ -1,6 +1,25 @@
 <!DOCTYPE html>
 <html>
 <title>App Soy ballenita</title>
+<head>
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -17,11 +36,17 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 <nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
   <div class="w3-container w3-display-container w3-padding-16">
     <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+    
+
+    <img src="apple-icon-76x76.png" alt="ballenita" style="width:20%">
+
     <h3 class="w3-wide"><b>Soy ballenita</b></h3>
   </div>
   <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
     <a href="#" class="w3-bar-item w3-button">Intro</a>
     <a href="#" class="w3-bar-item w3-button">Retos</a>
+
+    <!--
     <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
       Jeans <i class="fa fa-caret-down"></i>
     </a>
@@ -34,6 +59,7 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     <a href="#" class="w3-bar-item w3-button">Blazers</a>
     <a href="#" class="w3-bar-item w3-button">Shoes</a>
   </div>
+-->
   <a href="#footer" class="w3-bar-item w3-button w3-padding">Contact</a> 
   <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Newsletter</a> 
   <a href="#footer"  class="w3-bar-item w3-button w3-padding">Subscribe</a>
@@ -41,7 +67,7 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 
 <!-- Top menu on small screens -->
 <header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
-  <div class="w3-bar-item w3-padding-24 w3-wide">Soy ballenita</div>
+  <div class="w3-bar-item w3-padding-24 w3-wide">#SoyBallenita</div>
   <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
 </header>
 
@@ -62,20 +88,28 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     </p>
   </header>
 
-  <!-- Image header -->
+    
+
+  <!-- Image header 
   <div class="w3-display-container w3-container">
     <img src="/w3images/jeans.jpg" alt="Jeans" style="width:100%">
     <div class="w3-display-topleft w3-text-white" style="padding:24px 48px">
       <h1 class="w3-jumbo w3-hide-small">New arrivals</h1>
       <h1 class="w3-hide-large w3-hide-medium">New arrivals</h1>
       <h1 class="w3-hide-small">COLLECTION 2016</h1>
+<!--
       <p><a href="#jeans" class="w3-button w3-black w3-padding-large w3-large">SHOP NOW</a></p>
+
+
     </div>
   </div>
+
 
   <div class="w3-container w3-text-grey" id="jeans">
     <p>8 items</p>
   </div>
+-->
+
 
   <!-- Product grid
   <div class="w3-row w3-grayscale">
@@ -99,8 +133,9 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 
 <div>
   <ul>
-    <li>RETOS DE LA BALLENITA</li>
-    <li>Día 1: haz algo que te guste mucho y ya! comparte el hashtag, #SoyBallenita</li>
+    <h2>RETOS DE LA BALLENITA</h2>
+    <li>Día 1: haz algo que te guste mucho y ya! comparte el hashtag, #SoyBallenita</li> 
+    <a href="http://twitter.com/home?status=%23SoyBallenita">To Twitter</a>
     <li>Día 2: Duermete temprano y lejos de tu celular.</li>
     <li>Día 3: Cuidate, conscientete mucho!</li>
     <li>Día 4: Dibuja una ballenita en una hoja de papel y enviala con el hashtag #SoyBallenita</li>
