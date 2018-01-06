@@ -135,6 +135,8 @@ Día 30 a 49: corre, haz deporte, cuidate a ti mismo, duerme bien, levantate temp
 Día X: haz esa meta que siempre quisiste hacer apoyado con tu familia o amigos.  
 
 
+https://twitter.com/search?q=%23IAmAWhale&src=typd
+
 
 
 
